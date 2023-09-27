@@ -1,0 +1,44 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+.container {
+    background-color: aqua;
+    justify-content:center;
+    align-items: center;
+    display:flex;
+    width:100%;
+    height:100vh;
+}
+.container .calci{
+    background:#3a4453;
+    padding:20px;
+    border:2px;
+    border-radius:10px;
+}
+.container .calci  input{
+    width:60px;
+    height:60px;
+    padding:20px;
+    background:transparent;
+    color:#fff;
+    border:2px;
+    border-radius:10px;
+    box-shadow:-8px -8px 15px rgba(134, 129, 129, 0.1),5px 5px 15px rgba(0,0,0,0.2);
+    margin:5px;
+    cursor:pointer;
+    font-size:15px;
+
+}
+ form .result
+{
+    display:flex;
+    justify-content:flex-end;
+   margin:20px 0;
+}
+form .result input{
+    text-align:right;
+    font-size:30px;
+    flex:1;
+}
